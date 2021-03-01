@@ -1,0 +1,52 @@
+2021-03-01 19:34:46,138 INFO  [log] SKU00021
+2021-03-01 19:34:46,191 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://soap.upskills.in/soap/default?services=catalogProductRepositoryV1">
+   <env:Body>
+      <ns1:catalogProductRepositoryV1GetResponse>
+         <result>
+            <id>12342227</id>
+            <sku>SKU00021</sku>
+            <name>Ipad</name>
+            <attributeSetId>4</attributeSetId>
+            <status>1</status>
+            <visibility>4</visibility>
+            <typeId>wide</typeId>
+            <createdAt>2021-03-01 14:04:42</createdAt>
+            <updatedAt>2021-03-01 14:04:42</updatedAt>
+            <extensionAttributes>
+               <websiteIds>
+                  <item>1</item>
+               </websiteIds>
+            </extensionAttributes>
+            <productLinks/>
+            <options/>
+            <mediaGalleryEntries/>
+            <tierPrices/>
+            <customAttributes>
+               <item>
+                  <attributeCode>options_container</attributeCode>
+                  <value>container2</value>
+               </item>
+               <item>
+                  <attributeCode>url_key</attributeCode>
+                  <value>ipad</value>
+               </item>
+               <item>
+                  <attributeCode>required_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>has_options</attributeCode>
+                  <value>0</value>
+               </item>
+               <item>
+                  <attributeCode>category_ids</attributeCode>
+                  <value/>
+               </item>
+            </customAttributes>
+         </result>
+      </ns1:catalogProductRepositoryV1GetResponse>
+   </env:Body>
+</env:Envelope>
+2021-03-01 19:34:46,285 INFO  [log] Ipad
+2021-03-01 19:34:48,750 INFO  [log] true
+2021-03-01 19:34:52,281 INFO  [log] SKU00022
